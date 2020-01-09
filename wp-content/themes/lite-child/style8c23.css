@@ -1,0 +1,28 @@
+/*
+Theme Name: Lite Child
+Theme URI: http://demos.mcnika.com/lite/
+Author: mcnika
+Author URI: http://themeforest.net/user/mcnika
+Description: Child Theme for Lite - Responsive WordPress Blog Theme. Based on Bootstrap framework.
+Template: lite
+Version: 1.0.0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:500,600');
+
+.main-navigation a,
+h1.site-title,
+body h1, 
+body h2, 
+body h3, 
+body h4, 
+body h5, 
+body h6 {
+    font-family: 'Oswald', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.main-navigation a {
+    font-weight: 500;
+}
